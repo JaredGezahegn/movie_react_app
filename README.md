@@ -4,23 +4,12 @@
 
 ## Table of Contents
 
-- [Demo](#demo)
+ 
 - [Features](#features)
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
-- [Environment Variables](#environment-variables)
-- [Folder Structure](#folder-structure)
-- [Usage](#usage)
-- [Contributing](#contributing)
 
----
-
-## Demo
-## Live Demo
-
-Check out the live version of the app here: [Movie React App Live](https://your-vercel-link.vercel.app)
-
----
+ 
 
 ## Features
 
