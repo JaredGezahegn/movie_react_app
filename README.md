@@ -16,9 +16,19 @@
 ---
 
 ## Demo
-## Live Demo
 
-Check out the live version of the app here: [Movie React App Live](https://your-vercel-link.vercel.app)
+
+## Demo
+
+### Homepage
+![Homepage](screenshots/home.png)
+
+### All Movies
+![All-Movies](screenshots/All-movie.png)
+
+### Search Function
+![Search](screenshots/searched-movie.png)
+
 
 ---
 
