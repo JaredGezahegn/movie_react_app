@@ -16,6 +16,9 @@
 ---
 
 ## Demo
+## Live Demo
+
+Check out the live version of the app here: [Movie React App Live](https://your-vercel-link.vercel.app)
 
 ---
 
