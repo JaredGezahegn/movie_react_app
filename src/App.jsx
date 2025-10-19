@@ -1,6 +1,11 @@
 import { useEffect, useState } from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
+import BG from './assets/BG.png';
+import heroImg from './assets/hero-img.png';
+
+
+
 import "./App.css";
 import Search from "./components/Search";
 import MovieList from "./components/MovieList";
@@ -81,10 +86,10 @@ const App = () => {
 
   return (
     <Router>
-      <div  className="pattern w-full max-w-full object-cover  relative z-0" style={{ backgroundImage: "url('/BG.png')"}}>
+      <div  className="pattern w-full max-w-full object-cover  relative z-0" style={{ backgroundImage: `url(${BG})`}}>
         <div className="wrapper">
           <header>
-            <img src="/hero-img.png" alt="Hero Banner" />
+            <img src={heroImg} alt="Hero Banner" />
             <h1>
               Find <span className="text-gradient">Movies</span> You'll Enjoy
             </h1>
