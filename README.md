@@ -11,9 +11,8 @@
 
 <<<<<<< HEAD
 ---
-
-## Demo
-
+## 🌐 Live Demo
+👉 [View the Live App] https://jaredgezahegn.github.io/movie_react_app/
 
 ## Demo
 
