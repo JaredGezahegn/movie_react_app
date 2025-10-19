@@ -1,28 +1,20 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
-const MovieCard = ({ movie}) => {
- 
-const { Title, Poster, Year } = movie;
+const MovieCard = ({ movie }) => {
+  const { Title, Poster, Year, imdbID } = movie;
 
   return (
-    <div className="movie-card">
-      <img
-        src={Poster !== "N/A" ? Poster : "/no-image.png"}
-        alt={Title}
-        className="w-full h-48 object-cover rounded"
-      />
-      <div className="mt-4">
-        <h3>{Title}</h3>
-      </div>
-      <div className="content">
-        <div className="rating">
-          <img src="/Rating.svg" alt="star" />
-          <p className='lang'> N/A</p>
-        </div>{" "}
-        <span>•</span>
-        <p className="year">{Year}</p>
-      </div>
-    </div>
+    <li className="movie-card">
+      <Link to={`/movie/${imdbID}`}>
+        <img
+          src={Poster !== "N/A" ? Poster : "/no-image.png"}
+          alt={Title}
+          className="rounded-lg h-64 w-full object-cover"
+        />
+        <h3 className="mt-2">{Title}</h3>
+        <p className="text-gray-100 mt-1">{Year}</p>
+      </Link>
+    </li>
   );
 };
 

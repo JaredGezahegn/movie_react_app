@@ -4,15 +4,12 @@
 
 ## Table of Contents
 
-- [Demo](#demo)
+ 
 - [Features](#features)
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
-- [Environment Variables](#environment-variables)
-- [Folder Structure](#folder-structure)
-- [Usage](#usage)
-- [Contributing](#contributing)
 
+<<<<<<< HEAD
 ---
 
 ## Demo
@@ -31,6 +28,9 @@
 
 
 ---
+=======
+ 
+>>>>>>> 368907571e15e28ab814baefc18aa93850f5a479
 
 ## Features
 
