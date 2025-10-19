@@ -12,7 +12,7 @@
 <<<<<<< HEAD
 ---
 ## 🌐 Live Demo
-👉 [View the Live App] (https://jaredgezahegn.github.io/movie_react_app/)
+👉 [View the Live App](https://JaredGezahegn.github.io/movie_react_app)
 
 ## Demo
 
