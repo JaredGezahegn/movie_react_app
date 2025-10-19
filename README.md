@@ -12,7 +12,7 @@
 <<<<<<< HEAD
 ---
 ## 🌐 Live Demo
-👉 [View the Live App] https://jaredgezahegn.github.io/movie_react_app/
+👉 [View the Live App] (https://jaredgezahegn.github.io/movie_react_app/)
 
 ## Demo
 
@@ -34,6 +34,7 @@
 ## Features
 
 - Search movies using the [OMDB API](http://www.omdbapi.com/).
+- See Movie detail for any movie.
 - Debounced search for better performance.
 - Responsive design with TailwindCSS.
 - Movie cards display poster, title, and year.
